@@ -1,0 +1,9 @@
+.common-footer{
+	width: 100%;
+	color: rgb(79, 75, 75);
+	font-weight: 700;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+}
