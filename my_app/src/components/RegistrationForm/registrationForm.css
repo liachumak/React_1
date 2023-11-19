@@ -1,0 +1,42 @@
+.registration{
+	margin: 50px auto;
+	width: 400px;
+	background: rgb(124,124,128);
+	background: linear-gradient(0deg, rgba(124,124,128,1) 0%, rgba(235,252,255,1) 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid rgba(29, 28, 28, 0.775);
+}
+.registration form{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+.registration h2{
+	color: rgba(29, 28, 28, 0.775);
+}
+.registration label{
+	align-self: flex-start;
+	margin-bottom: 5px;
+	color: rgba(29, 28, 28, 0.775);
+}
+.registration input, 
+.registration button{
+	box-sizing: border-box;
+	height: 40px;
+	margin-bottom: 15px;
+}
+.registration button{
+	background-color: rgba(29, 28, 28, 0.775);;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.registration p{
+	color: red;
+	font-weight: bold;
+}

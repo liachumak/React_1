@@ -1,15 +1,10 @@
 const FooterItem = (props) => {
-	const { content, isLowerCaseText } = props;
+	const { content, isLowersetext } = props;
 	let textToRender;
-	if(isLowerCaseText) {
-		textToRender = content.toLowerCase();
-	}
-	else {
-		textToRender = content;
-	}
-	return (
-		<div>{ textToRender }</div>
-	)
-}
-
-export default FooterItem;
+	!isLowersetext
+	  ? (textToRender = content.toLowerCase())
+	  : (textToRender = content.toUpperCase());
+	return <div>{textToRender}</div>;
+  };
+  
+  export default FooterItem;

@@ -3,11 +3,11 @@ import FooterItem from "../FooterItem";
 
 const Footer = () => {
 	return(
-	<div className="common-footer">
-		<FooterItem content="First element" isLowerCaseText={true} />
-		<FooterItem content="Second element" isLowerCaseText={true} />
-		<FooterItem content="Third element" isLowerCaseText={false} />
-		<FooterItem content="Fourth element" isLowerCaseText={false} />
+	<div className="footer">
+		<FooterItem content="First elem" isLowerCaseText={false} />
+		<FooterItem content="Second elem" isLowerCaseText={false} />
+		<FooterItem content="Third elem" isLowerCaseText={true} />
+		<FooterItem content="Fourth elem" isLowerCaseText={true} />
 	</div>
 	);
 }

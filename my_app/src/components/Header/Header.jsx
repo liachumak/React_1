@@ -1,16 +1,14 @@
-import './header.css'
+import './header.css';
 import NavigationItem from "../NavigationItem";
 
-
 const Header = () => {
-    return ( 
-    <div className ="common-header">
-        <NavigationItem text='First element' isUpperCaseText={true}/>
-       <NavigationItem text='Second element' isUpperCaseText={true}/>
-       <NavigationItem text='Third element'isUpperCase={false}/>
-       <NavigationItem text='Forth element' isUpperCase={false}/>
-    </div>
-
-    );
+	return(
+		<div className="common-header">
+			<NavigationItem text='First elem' isUpperCaseText={true} />
+			<NavigationItem text='Second elem' isUpperCaseText={false} />
+			<NavigationItem text='Third elem' isUpperCaseText={false} />
+			<NavigationItem text='Fourth elem' isUpperCaseText={true} />
+		</div>
+	);
 }
 export default Header;
